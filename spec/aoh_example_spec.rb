@@ -2,7 +2,8 @@ require 'spec_helper'
 
 describe 'When a learning to build AoH,' do
   it 'the assembled_aoh method returns an AoH made from two constants' do
-    result = [{:name=>"Don Gately", :occupation=>"Live-in Staff"},
+    result = [
+       {:name=>"Don Gately", :occupation=>"Live-in Staff"},
        {:name=>"Joelle van Dyne", :occupation=>"Radio Personality"},
        {:name=>"Pat Monteseian", :occupation=>"Staff"},
        {:name=>"Kate Gompert", :occupation=>"None"},
